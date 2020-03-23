@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-driver = webdriver.Chrome('C:/Users/localuser/Downloads/chromedriver.exe')
+driver = webdriver.Chrome('path/to/chromedriver.exe')    # путь где лежит chromedriver.exe #
 driver.implicitly_wait(10)
 
 driver.get("https://blog.csssr.ru/qa-engineer/")
